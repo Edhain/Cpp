@@ -1,0 +1,27 @@
+// For case when both arrays are equal
+int merge(a,b,n,m)
+    i=0, j=0, k=0
+
+    while(i<=n && j<=m):
+        if a[i] < b[j]:
+            c[k++] == a[i++]
+        else:
+            c[k++] == b[j++]
+
+// For case when one array is larger than the other
+int merge(a,b,n,m)
+    i=0, j=0, k=0
+
+    while(i<=n && j<=m):
+        if a[i] < b[j]:
+            c[k++] == a[i++]
+        else:
+            c[k++] == b[j++]
+
+while(i<n):
+    c[k++] = a[i]  // c[k++] = a[i++]
+    i++
+    
+    while(j<m):
+        c[k++] = b[j]  // c[k++] = a[i++]
+        j++
